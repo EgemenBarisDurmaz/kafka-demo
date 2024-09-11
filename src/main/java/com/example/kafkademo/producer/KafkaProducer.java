@@ -10,7 +10,7 @@ import javax.print.DocFlavor;
 @Service
 public class KafkaProducer {
 
-    private static final String TOPIC = "my-topic";
+    private static final String TOPIC = "my_topic";
 
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
